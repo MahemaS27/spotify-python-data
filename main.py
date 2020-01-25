@@ -111,7 +111,7 @@ while True:
 
     # See album art
     while True:
-      songSelection = input("Enter a song number to see the album art: ")
+      songSelection = input("Enter a song number to see the album art (or press x to exit): ")
       if songSelection == "x":
         break
       trackSelectionList = []
